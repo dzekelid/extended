@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Extended",
+	"description": "This is a repository of extended APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/extended.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://extended.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Baltimore Open311",
+			"x-api-slug": "baltimore-open311",
+			"description": "Baltimore 311 helps residents make their neighborhoods more beautiful by reporting local issues including potholes, graffiti, and streetlight outages. Residents can track the status of reports they or other members of the community have submitted",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/baltimore311-logo.png",
+			"humanURL": "http://wiki.open311.org/GeoReport_v2/Servers",
+			"baseURL": "https://311.baltimorecity.gov//open311/v2/",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/baltimore-open311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brookline Massachusetts 311",
+			"x-api-slug": "brookline-massachusetts-311",
+			"description": "The 311 website for Brookline Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-12-26 at 9.54.50 PM.png",
+			"humanURL": "http://spot.brooklinema.gov/open311",
+			"baseURL": "https://spot.brooklinema.gov//open311/v2/",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/brookline-massachusetts-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chicago Illinois 311",
+			"x-api-slug": "chicago-illinois-311",
+			"description": "Call 311 for assistance with non-emergency City Services and for information on events, programs and agencies within the City of Chicago.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/6A231614-652B-4334-852C-54261F4B13BD",
+			"humanURL": "http://cityofchicago.org/311",
+			"baseURL": "https://311api.cityofchicago.org//open311/v2/",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/chicago-illinois-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "San Francisco California 311",
+			"x-api-slug": "san-francisco-california-311",
+			"description": "The 311 service for the City of San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vzN3Pt2u_400x400.png",
+			"humanURL": "http://ouc.dc.gov",
+			"baseURL": "https://mobile311.sfgov.org//open311/v2/",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/san-francisco-california-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Extended",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Extended",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Baltimore Open311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/baltimore-open311/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Brookline Massachusetts 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/brookline-massachusetts-311/apis.yaml"
+		},
+		{
+			"name": "Chicago Illinois 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/chicago-illinois-311/apis.yaml"
+		},
+		{
+			"name": "San Francisco California 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/san-francisco-california-311/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/axa-assistance/apis.yaml"
+		}
+	]
+}

@@ -17,6 +17,61 @@ produces:
 consumes:
 - application/json
 paths:
+  /sales/v1/individual/appliance/certificates:
+    post:
+      summary: Requests the activation of a certificate either to cover an appliance
+        purchased or to extend the warranty period of an appliance purchased. At least
+        one product_criteria has to be specified to identify the product to which
+        to subscribe. This endpoint
+      description: Requests the activation of a certificate either to cover an appliance
+        purchased or to extend the warranty period of an appliance purchased. At least
+        one product_criteria has to be specified to identify the product to which
+        to subscribe. This endpoint
+      operationId: postSalesV1IndividualApplianceCertificates
+      x-api-path-slug: salesv1individualappliancecertificates-post
+      parameters:
+      - in: header
+        name: accept-language
+        description: Accepted language, IANA language codification
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Insurance
+      - RequestAssistance
+      - the
+      - activation
+      - ofcertificate
+      - either
+      - to
+      - coverappliance
+      - purchasedto
+      - extend
+      - the
+      - warranty
+      - period
+      - ofappliance
+      - purchased.
+      - At
+      - leastproduct_criteria
+      - haAssistance
+      - to
+      - be
+      - specified
+      - to
+      - identify
+      - the
+      - product
+      - to
+      - which
+      - to
+      - subscribe.
+      - ThiAssistance
+      - endpoint
   /sales/v1/individual/appliance/certificates/{certificate_id}:
     get:
       summary: Get appliance (Extended warranty, purchase insurance ) certificate

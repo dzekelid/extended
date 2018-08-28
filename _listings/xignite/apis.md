@@ -7,324 +7,343 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Extended
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Global Historical Get Global Historical Quotes Range Extended
-  x-api-slug: xignite-global-historical
+- name: Xignite Global Historical - Get Global Historical Quotes Range Extended
+  x-api-slug: getglobalhistoricalquotesrangeextended-get
   description: This operation returns a complete range of global historical quotes
     extended for a given equity. This includes the adjusted price as specified.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalQuotesRangeExtended
-  tags: Market Data,Global, Historical, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getglobalhistoricalquotesrangeextended-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Weekly Quotes Range Extended
-  x-api-slug: xignite-global-historical
+- name: Xignite Global Historical - Get Global Historical Weekly Quotes Range Extended
+  x-api-slug: getglobalhistoricalweeklyquotesrangeextended-get
   description: Returns a range of weekly Global Historical quotes extended for a security.
     For more information, go to http://www.xignite.com/
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalWeeklyQuotesRangeExtended
-  tags: Market Data,Global, Historical, Weekly, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getglobalhistoricalweeklyquotesrangeextended-get-openapi.md
-- name: Xignite Global Historical Get Global Historical Monthly Quotes Range Extended
-  x-api-slug: xignite-global-historical
+- name: Xignite Global Historical - Get Global Historical Monthly Quotes Range Extended
+  x-api-slug: getglobalhistoricalmonthlyquotesrangeextended-get
   description: This operation returns a range of monthly quotes extended for an equity
     based on the specified date range. This includes the adjusted price as specified.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical//GetGlobalHistoricalMonthlyQuotesRangeExtended
-  tags: Market Data,Global, Historical, Monthly, Quotes, Range, Extended
+  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getglobalhistoricalmonthlyquotesrangeextended-get-openapi.md
-- name: Xignite Global Historical
-  x-api-slug: xignite-global-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xGlobalHistorical.json/XigniteGlobalHistorical
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite Global Metals Get Real Time Extended Metal Quote
-  x-api-slug: xignite-global-metals
+- name: Xignite Global Metals - Get Real Time Extended Metal Quote
+  x-api-slug: getrealtimeextendedmetalquote-get
   description: Get real time extended metal quote.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals//GetRealTimeExtendedMetalQuote
-  tags: Market Data,Real, Time, Extended, Metal, Quote
+  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getrealtimeextendedmetalquote-get-openapi.md
-- name: Xignite Global Metals
-  x-api-slug: xignite-global-metals
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalmetals.xignite.com/xGlobalMetals.json/XigniteGlobalMetals
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite Global Options Get All Extended Equity Option Chain
-  x-api-slug: xignite-global-options
+- name: Xignite Global Options - Get All Extended Equity Option Chain
+  x-api-slug: getallextendedequityoptionchain-get
   description: Returns extended options chains for an equity.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions//GetAllExtendedEquityOptionChain
-  tags: Extended, Equity, Option, Chain
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getallextendedequityoptionchain-get-openapi.md
-- name: Xignite Global Options Get Extended Equity Option Chain
-  x-api-slug: xignite-global-options
-  description: Returns extended options chain for an equity.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions//GetExtendedEquityOptionChain
-  tags: Extended, Equity, Option, Chain
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionchain-get-openapi.md
-- name: Xignite Global Options Get Extended Equity Option
-  x-api-slug: xignite-global-options
-  description: Returns a specific equity extended option.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions//GetExtendedEquityOption
-  tags: Extended, Equity, Option
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoption-get-openapi.md
-- name: Xignite Global Options Get Extended Equity Option By Symbol
-  x-api-slug: xignite-global-options
-  description: Returns a specific equity extended option.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions//GetExtendedEquityOptionBySymbol
-  tags: Extended, Equity, Option, Symbol
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbol-get-openapi.md
-- name: Xignite Global Options Get Extended Equity Option By Symbols
-  x-api-slug: xignite-global-options
-  description: Returns an array of specific equity extended options.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions//GetExtendedEquityOptionBySymbols
-  tags: Extended, Equity, Option, Symbols
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbols-get-openapi.md
-- name: Xignite Global Options
-  x-api-slug: xignite-global-options
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite Global Real Time Options Get All Extended Equity Option Chain
-  x-api-slug: xignite-global-real-time-options
-  description: Returns extended options chains for an equity.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions//GetAllExtendedEquityOptionChain
-  tags: Extended, Equity, Option, Chain
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getallextendedequityoptionchain-get-openapi.md
-- name: Xignite Global Real Time Options Get Extended Equity Option Chain
-  x-api-slug: xignite-global-real-time-options
+- name: Xignite Global Options - Get Extended Equity Option Chain
+  x-api-slug: getextendedequityoptionchain-get
   description: Returns extended options chain for an equity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions//GetExtendedEquityOptionChain
-  tags: Extended, Equity, Option, Chain
+  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionchain-get-openapi.md
-- name: Xignite Global Real Time Options Get Extended Equity Option
-  x-api-slug: xignite-global-real-time-options
+- name: Xignite Global Options - Get Extended Equity Option
+  x-api-slug: getextendedequityoption-get
   description: Returns a specific equity extended option.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions//GetExtendedEquityOption
-  tags: Extended, Equity, Option
+  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoption-get-openapi.md
-- name: Xignite Global Real Time Options Get Extended Equity Option By Symbol
-  x-api-slug: xignite-global-real-time-options
+- name: Xignite Global Options - Get Extended Equity Option By Symbol
+  x-api-slug: getextendedequityoptionbysymbol-get
   description: Returns a specific equity extended option.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions//GetExtendedEquityOptionBySymbol
-  tags: Extended, Equity, Option, Symbol
+  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbol-get-openapi.md
-- name: Xignite Global Real Time Options Get Extended Equity Option By Symbols
-  x-api-slug: xignite-global-real-time-options
+- name: Xignite Global Options - Get Extended Equity Option By Symbols
+  x-api-slug: getextendedequityoptionbysymbols-get
   description: Returns an array of specific equity extended options.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions//GetExtendedEquityOptionBySymbols
-  tags: Extended, Equity, Option, Symbols
+  baseURL: https://globaloptions.xignite.com/xglobaloptions.json/XigniteGlobalOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbols-get-openapi.md
-- name: Xignite Global Real Time Options
-  x-api-slug: xignite-global-real-time-options
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
+- name: Xignite Global Real Time Options - Get All Extended Equity Option Chain
+  x-api-slug: getallextendedequityoptionchain-get
+  description: Returns extended options chains for an equity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
-  tags: Extended
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite Historical Get Extended Dividend History
-  x-api-slug: xignite-historical
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getallextendedequityoptionchain-get-openapi.md
+- name: Xignite Global Real Time Options - Get Extended Equity Option Chain
+  x-api-slug: getextendedequityoptionchain-get
+  description: Returns extended options chain for an equity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionchain-get-openapi.md
+- name: Xignite Global Real Time Options - Get Extended Equity Option
+  x-api-slug: getextendedequityoption-get
+  description: Returns a specific equity extended option.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoption-get-openapi.md
+- name: Xignite Global Real Time Options - Get Extended Equity Option By Symbol
+  x-api-slug: getextendedequityoptionbysymbol-get
+  description: Returns a specific equity extended option.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbol-get-openapi.md
+- name: Xignite Global Real Time Options - Get Extended Equity Option By Symbols
+  x-api-slug: getextendedequityoptionbysymbols-get
+  description: Returns an array of specific equity extended options.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalrealtimeoptions.xignite.com/xglobalrealtimeoptions.json/XigniteGlobalRealTimeOptions
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedequityoptionbysymbols-get-openapi.md
+- name: Xignite Historical - Get Extended Dividend History
+  x-api-slug: getextendeddividendhistory-get
   description: Get extended dividend history for a stock.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetExtendedDividendHistory
-  tags: Market Data,Extended, Dividend, History
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendeddividendhistory-get-openapi.md
-- name: Xignite Historical Get Extended Dividend History Range
-  x-api-slug: xignite-historical
+- name: Xignite Historical - Get Extended Dividend History Range
+  x-api-slug: getextendeddividendhistoryrange-get
   description: Get extended dividend history range for a stock.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetExtendedDividendHistoryRange
-  tags: Market Data,Extended, Dividend, History, Range
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendeddividendhistoryrange-get-openapi.md
-- name: Xignite Historical Get All Extended Dividends
-  x-api-slug: xignite-historical
+- name: Xignite Historical - Get All Extended Dividends
+  x-api-slug: getallextendeddividends-get
   description: Get all extended dividend for a date range.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical//GetAllExtendedDividends
-  tags: Market Data,Extended, Dividends
+  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getallextendeddividends-get-openapi.md
-- name: Xignite Historical
-  x-api-slug: xignite-historical
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xHistorical.json/XigniteHistorical
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite Money Markets Get Swap Rate Extended
-  x-api-slug: xignite-money-markets
+- name: Xignite Money Markets - Get Swap Rate Extended
+  x-api-slug: getswaprateextended-get
   description: Returns latest Swap rate
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetSwapRateExtended
-  tags: Market Data,Swap, Rate, Extended
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getswaprateextended-get-openapi.md
-- name: Xignite Money Markets Get Swap Rate Family Extended
-  x-api-slug: xignite-money-markets
+- name: Xignite Money Markets - Get Swap Rate Family Extended
+  x-api-slug: getswapratefamilyextended-get
   description: Returns latest Swap rate family
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetSwapRateFamilyExtended
-  tags: Market Data,Swap, Rate, Family, Extended
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getswapratefamilyextended-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate Extended
-  x-api-slug: xignite-money-markets
+- name: Xignite Money Markets - Get Historical Swap Rate Extended
+  x-api-slug: gethistoricalswaprateextended-get
   description: Returns historical swap rate
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRateExtended
-  tags: Market Data,Historical, Swap, Rate, Extended
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/gethistoricalswaprateextended-get-openapi.md
-- name: Xignite Money Markets Get Historical Swap Rate Extended Range
-  x-api-slug: xignite-money-markets
+- name: Xignite Money Markets - Get Historical Swap Rate Extended Range
+  x-api-slug: gethistoricalswaprateextendedrange-get
   description: Returns historical Swap rate range
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets//GetHistoricalSwapRateExtendedRange
-  tags: Market Data,Historical, Swap, Rate, Extended, Range
+  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/gethistoricalswaprateextendedrange-get-openapi.md
-- name: Xignite Money Markets
-  x-api-slug: xignite-money-markets
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xMoneyMarkets.json/XigniteMoneyMarkets
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
-- name: Xignite NASDAQ Last Sale Get Extended Quote
-  x-api-slug: xignite-nasdaq-last-sale
+- name: Xignite NASDAQ Last Sale - Get Extended Quote
+  x-api-slug: getextendedquote-get
   description: Returns a real-time NASDAQ BASIC quote for given security.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale//GetExtendedQuote
-  tags: Extended, Quote
+  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedquote-get-openapi.md
-- name: Xignite NASDAQ Last Sale Get Extended Quotes
-  x-api-slug: xignite-nasdaq-last-sale
+- name: Xignite NASDAQ Last Sale - Get Extended Quotes
+  x-api-slug: getextendedquotes-get
   description: Returns real-time NASDAQ BASIC quotes for given securities.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
-  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale//GetExtendedQuotes
-  tags: Extended, Quotes
+  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/getextendedquotes-get-openapi.md
-- name: Xignite NASDAQ Last Sale
-  x-api-slug: xignite-nasdaq-last-sale
-  description: Financial market data on-demand. Xignite financial Web services help
-    build smarter websites and applications in minutes with zero up-front investment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
-  humanURL: http://www.xignite.com
-  baseURL: https://nasdaqlastsale.xignite.com/xNASDAQLastSale.json/XigniteNASDAQLastSale
-  tags: Extended
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/extended/master/_listings/xignite/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
+- type: x-api-gallery
+  url: http://xibo.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xignite.stack.network
 - type: x-base
   url: http://globalmaster.xignite.com
 - type: x-case-studies

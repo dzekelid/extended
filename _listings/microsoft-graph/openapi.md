@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 1
@@ -1070,4 +1069,3 @@ paths:
       - Legacy
       - Extended
       - Property
----
